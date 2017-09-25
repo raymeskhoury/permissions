@@ -1424,7 +1424,7 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">Permissions</h1>
-   <h2 class="no-num no-toc no-ref heading settled" id="subtitle"><span class="content">Editor’s Draft, <time class="dt-updated" datetime="2017-09-24">24 September 2017</time></span></h2>
+   <h2 class="no-num no-toc no-ref heading settled" id="subtitle"><span class="content">Editor’s Draft, <time class="dt-updated" datetime="2017-09-25">25 September 2017</time></span></h2>
    <div data-fill-with="spec-metadata">
     <dl>
      <dt>This version:
@@ -1976,11 +1976,11 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
         <li>Let <var>global</var> be a copy of <var>permissionDesc</var> with the <code class="idl"><a data-link-type="idl" href="#dom-devicepermissiondescriptor-deviceid" id="ref-for-dom-devicepermissiondescriptor-deviceid③">deviceId</a></code> member removed. 
         <li> Set <code><var>status</var>.state</code> to <var>global</var>’s <a data-link-type="dfn" href="#permission-state" id="ref-for-permission-state①⑥">permission state</a>. 
        </ol>
-      <dt> <a data-link-type="dfn" href="https://w3c.github.io/permissions/#permission-request-algorithm" id="ref-for-permission-request-algorithm">permission request algorithm</a> 
+      <dt> <a data-link-type="dfn">permission request algorithm</a> 
       <dd>
         The permission request algorithm runs the following steps: 
        <ol class="algorithm">
-        <li> Let <var>result</var> be the result of running the <a data-link-type="dfn" href="https://w3c.github.io/permissions/#boolean-permission-request-algorithm" id="ref-for-boolean-permission-request-algorithm">boolean permission
+        <li> Let <var>result</var> be the result of running the <a data-link-type="dfn">boolean permission
         request algorithm</a>. 
         <li>If <var>result</var> is <code class="idl"><a data-link-type="idl" href="#dom-permissionstate-granted" id="ref-for-dom-permissionstate-granted①⓪">"granted"</a></code>, the UA MUST set the <code class="idl"><a data-link-type="idl" href="#dom-permissionname-device-info" id="ref-for-dom-permissionname-device-info①">"device-info"</a></code> permission to <code class="idl"><a data-link-type="idl" href="#dom-permissionstate-granted" id="ref-for-dom-permissionstate-granted①①">"granted"</a></code> for this <a data-link-type="dfn" href="https://tc39.github.io/ecma262/#sec-code-realms" id="ref-for-sec-code-realms⑤">realm</a>. 
         <li>The UA MAY treat <var>result</var> as <a data-link-type="dfn" href="#new-information-about-the-users-intent" id="ref-for-new-information-about-the-users-intent⑤">new information about the
